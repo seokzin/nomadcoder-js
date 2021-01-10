@@ -6,3 +6,6 @@ vanillaJS study with NomadCoder Youtube
 #### v 1.0.0
 - Clock
 - Greeting (get name -> painting)
+
+#### v 1.0.1
+- To do List (C R D)
