@@ -3,6 +3,6 @@ vanillaJS study with NomadCoder Youtube
 
 ## Release
 
-#### v1.0.0
+#### v 1.0.0
 - Clock
 - Greeting (get name -> painting)
