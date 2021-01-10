@@ -1,5 +1,5 @@
 # nomadcoder-js
-vanillaJS study with NomadCoder Youtube
+VanillaJS study with NomadCoder Youtube
 
 ## Release
 
@@ -12,3 +12,9 @@ vanillaJS study with NomadCoder Youtube
 
 #### v 1.0.2
 - random bg img + animation
+
+#### v 1.0.3
+- weather API
+
+## TO-DO
+- CSS Design
