@@ -1,4 +1,5 @@
 const weather = document.querySelector(".js-weather");
+const city = document.querySelector(".js-city");
 
 const API_KEY = "e05256a29b9164268cef08bc12967f87"; // OpenWeatherMap API
 
@@ -14,7 +15,8 @@ function getWeather(lat, lng) {
     .then(function(json) {
       const temperature = json.main.temp;
       const place = json.name;
-      weather.innerText = `${temperature} @ ${place}`
+      weather.innerText = `${Math.round(temperature)}°`;
+      city.innerText = place;
     });
 }
 

@@ -2,31 +2,39 @@
 <html>
 
 <head>
-  <title>Something</title>
+  <title>Momentum</title>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="index.css"/>
 </head>
 
 <body>
-  <div class="js-clock">
-    <h1>00:00</h1> 
+  <div class='info'>
+    <div class="js-weather"></div>
+    <div class="js-city"></div>
   </div>
 
-  <form action="" class="js-form form">
-    <input type="text" placeholder="What is your name?">
-  </form>
+  <div class="js-clock">
+    <span class='clock__h'>00</span>
+    <span class='clock__sep'>:</span>
+    <span class='clock__m'>00</span> 
+    <span class='clock__s'>00</span> 
+  </div>
 
-  <h4 class="js-greeting greeting"></h4>
+  <div class="list">
+    <form action="" class="js-form form">
+      <input class="form__input" type="text" placeholder="What is your name?">
+    </form>
 
-  <form class="js-toDoForm">
-    <input type="text" placeholder="Write a to do" />
-  </form>
+    <div class="js-greeting greeting"></div>
 
-  <ul class="js-toDoList">
+    <form class="js-toDoForm">
+      <input class="form__input" type="text" placeholder="Write a to do" />
+    </form>
+
+    <ul class="js-toDoList">
     
-  </ul>
-
-  <span class="js-weather"></span>
+    </ul>
+  </div>
 
   <script src="clock.js"></script>
   <script src="greeting.js"></script>
