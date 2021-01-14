@@ -18,3 +18,4 @@ VanillaJS study with NomadCoder Youtube
 
 ## TO-DO
 - CSS Design
+- make gh-page
